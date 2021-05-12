@@ -63,6 +63,11 @@ body{
     align-items: center;
     color: #fff;
 }
+
+.hero__texts{
+    width: 80%;
+    margin-bottom: 50px;
+}
 .hero__wave{
     position: absolute;
     bottom: 0;
