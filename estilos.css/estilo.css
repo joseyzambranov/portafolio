@@ -30,7 +30,7 @@ body {
 
 .hero {
     height: 100vh;
-    background-image: var(--background), url('../asset/principal.jpg');
+    background-image: var(--background), url('../asset/portadaSumer.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -158,7 +158,7 @@ body {
 }
 
 .about__picture {
-    max-width: 90%;
+    max-width: 70%;
 }
 
 .about__paragraph {
