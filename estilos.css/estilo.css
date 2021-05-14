@@ -30,7 +30,7 @@ body {
 
 .hero {
     height: 100vh;
-    background-image: var(--background), url('../asset/portadaSumer.svg');
+    background-image: var(--background), url('../asset/portadaSumer.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
