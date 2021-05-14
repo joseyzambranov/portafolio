@@ -355,6 +355,7 @@ img {
     :root {
         --boton-padding: 18px 40px;
     }
+    
 
     .nav {
         justify-content: space-around;
