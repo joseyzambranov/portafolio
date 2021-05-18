@@ -176,10 +176,11 @@ body {
 
 .projects__grid {
     display: grid;
-    height: 550px;
+    height: 650px;
     grid-template-areas:
-        "img1 img1 img2 img3"
-        "img1 img1 img4 img5";
+        "img1 img1 img2 img3  "
+        "img1 img1 img4 img5"
+        "img1 img1 img6 img5 ";
     gap: 10px;
 }
 
@@ -219,6 +220,9 @@ img {
 
 .projects__item:nth-last-of-type(5) {
     grid-area: img5;
+}
+.projects__item:nth-last-of-type(6) {
+    grid-area: img6;
 }
 
 .projects__hover {
@@ -417,7 +421,8 @@ img {
         grid-template-areas:
             "img1 img1 img2 img2"
             "img1 img1 img3 img3"
-            "img4 img4 img5 img5";
+            "img4 img4 img5 img5"
+            "img6 img6 img5 img5";
     }
 
     /*tesmitony*/
@@ -481,7 +486,8 @@ img {
         "img2"
         "img3"
         "img4"
-        "img5";
+        "img5"
+        "img6";
         height: auto;
         grid-template-rows: repeat(5,250px);
         grid-auto-rows: 250px;
